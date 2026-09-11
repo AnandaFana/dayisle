@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="mint">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f6f8f4"><title>时屿 DayIsle · 生活时间地图</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/timeline.css"></head>
+<body>
+<div class="app-shell">
+ <aside class="sidebar">
+  <a class="brand" href="/" aria-label="时屿首页"><span class="brand-mark">屿</span><span>时屿<small>DAYISLE</small></span></a>
+  <div class="sidebar-label">我的生活空间</div>
+  <nav id="navigation" aria-label="主要导航"></nav>
+  <div class="sidebar-note"><span class="tiny-spark">✳</span><p>生活不是待办清单，<br>也是沿途的风景。</p><span>ONE DAY AT A TIME</span></div>
+  <div class="sidebar-bottom"><span class="local-dot"></span><span>只属于你的本地空间<small>记录保存在这台电脑</small></span></div>
+ </aside>
+ <main>
+  <header class="topbar"><div class="topbar-path">我的空间 <span>/</span> <strong id="page-name">时间地图</strong></div><div class="topbar-tools"><span id="mode-label" class="mode-label">本地记录</span><button id="demo-toggle" class="text-button">体验示例</button><button id="theme-quick" class="icon-button" title="切换页面主题" aria-label="切换页面主题"></button><span class="avatar">我</span></div></header>
+  <div id="demo-banner" class="demo-banner" hidden>你正在浏览示例空间 · 这些故事不会混入你的真实记录 <button id="exit-demo">开始我的记录 →</button></div>
+  <div class="page-wrap"><div id="page"></div><footer>留一点时间，给正在发生的生活。<span>DAYISLE · LOCAL FIRST</span></footer></div>
+ </main>
+</div>
+<dialog id="editor" class="drawer"><div id="editor-content"></div></dialog>
+<dialog id="confirm-dialog" class="confirm-dialog"><form method="dialog"><h2 id="confirm-title">确认操作</h2><p id="confirm-message"></p><div class="actions"><button value="cancel" class="button secondary">取消</button><button value="ok" class="button danger">确认</button></div></form></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script type="module" src="/js/app.js"></script>
+</body></html>

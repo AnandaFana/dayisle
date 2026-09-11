@@ -1,0 +1,8 @@
+:root,[data-theme="mint"]{color-scheme:light;--bg:#f7f9f6;--side:#f0f3ed;--panel:#fff;--subtle:#f7f9f5;--text:#303e35;--muted:#8a938b;--accent:#4e7057;--on-accent:#fff;--soft:#e9f0e5;--line:#e9ede6;--line-strong:#d7dfd3;--hero:#eef3e7;--hero-line:#e0e8d7}
+[data-theme="cyber"]{color-scheme:dark;--bg:#111222;--side:#0c0d19;--panel:#191a2e;--subtle:#151728;--text:#e3e6fd;--muted:#9293b3;--accent:#76efdd;--on-accent:#102829;--soft:#1d353b;--line:#2a2d47;--line-strong:#444869;--hero:linear-gradient(115deg,#21303e,#2a2146);--hero-line:#3b3f63}
+[data-theme="plain"]{color-scheme:light;--bg:#fafafa;--side:#f4f4f4;--panel:#fff;--subtle:#f7f7f7;--text:#292929;--muted:#888;--accent:#363636;--on-accent:#fff;--soft:#ededed;--line:#e8e8e8;--line-strong:#d4d4d4;--hero:#f0f0f0;--hero-line:#e3e3e3}
+[data-theme="paper"]{color-scheme:light;--bg:#f6f0e5;--side:#eee5d5;--panel:#fffcf4;--subtle:#f9f3e8;--text:#594734;--muted:#9b8974;--accent:#a46e45;--on-accent:#fffaf0;--soft:#efe2ce;--line:#e9ddca;--line-strong:#d7c5aa;--hero:#f0e5ce;--hero-line:#dfceb0}
+[data-theme="paper"] .panel,[data-theme="paper"] .stat-card,[data-theme="paper"] .journal-card{box-shadow:3px 4px 0 #d7c5aa40;border-radius:4px 12px 5px 7px}
+[data-theme="paper"] body{background-image:radial-gradient(#90704c12 .6px,transparent .6px);background-size:5px 5px}
+[data-theme="cyber"] .brand-mark{box-shadow:0 0 24px #76efdd25}[data-theme="cyber"] .hero{box-shadow:inset 0 0 45px #846dff10}[data-theme="cyber"] .island-art{filter:hue-rotate(90deg) saturate(.7);opacity:.7}
+[data-theme="plain"] .island-art{filter:grayscale(1)}

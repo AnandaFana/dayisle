@@ -1,0 +1,25 @@
+# Personal records, exports and backups never belong in the repository.
+data/
+*-data/
+.qa*/
+.local/
+backups/
+exports/
+*.jsonl
+*.csv
+*backup*.json
+.env
+.env.*
+*.key
+*.pem
+# Runtime and developer artifacts
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db
+# Local implementation notes (not public documentation)
+docs/VERIFICATION.md
+docs/UPDATE_20260911.md

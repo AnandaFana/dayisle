@@ -1,0 +1,36 @@
+[app]
+name = "时屿"
+subtitle = "把日子，慢慢写成自己喜欢的样子。"
+host = "127.0.0.1"
+port = 8765
+data_dir = "data"
+max_body_bytes = 5242880
+
+[defaults]
+theme = "mint"
+view = "week"
+
+[display]
+hero_expanded = false
+stats_expanded = false
+stat_cards = ["stories", "completed", "journals"]
+child_limit = 5
+show_children = true
+label_width = 280
+
+[[categories]]
+id = "work"
+name = "工作"
+color = "#6d8b70"
+[[categories]]
+id = "learn"
+name = "学习"
+color = "#7f8fca"
+[[categories]]
+id = "life"
+name = "生活"
+color = "#d49b62"
+[[categories]]
+id = "fun"
+name = "娱乐"
+color = "#b887aa"

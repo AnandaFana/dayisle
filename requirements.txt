@@ -1,0 +1,2 @@
+# Python 3.11+; this app uses only the Python standard library.
+# No third-party packages or network installation required.
